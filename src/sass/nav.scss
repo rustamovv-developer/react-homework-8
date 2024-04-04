@@ -1,0 +1,23 @@
+.nav {
+  padding: 26px 0px;
+  background-color: #bb2339;
+  &__info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__btn {
+    padding: 10px 40px;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    border-radius: 100px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    transition: all 500ms;
+    &:hover {
+      background-color: #ffffff;
+      color: #bb2339;
+    }
+  }
+}
