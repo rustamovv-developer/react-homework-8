@@ -1,5 +1,4 @@
 import React, { memo } from "react";
-import logo from "../../assets/images/logo.png";
 import { Link, NavLink } from "react-router-dom";
 import "../../sass/nav.scss";
 
@@ -9,7 +8,7 @@ function Nav() {
       <div className="container">
         <div className="nav__info">
           <Link to={"/"}>
-            <img src={logo} alt="logo" className="nav__img" />
+            <h2 className="nav__logo">{`{ Ru$tamovv }`}</h2>
           </Link>
           <ul className="nav__list">
             <li className="nav__item">

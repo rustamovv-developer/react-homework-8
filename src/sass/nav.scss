@@ -6,6 +6,12 @@
     align-items: center;
     justify-content: space-between;
   }
+  &__logo {
+    color: #ffffff;
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 30px;
+  }
   &__btn {
     padding: 10px 40px;
     border: 1px solid #ffffff;
